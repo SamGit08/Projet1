@@ -1,0 +1,126 @@
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+/* fond d'ecran*/
+body{
+  background-repeat: no-repeat;
+  background-image: url("file:///home/sambou/projet1/1920_the_table_of_beatmaking_beatoholiks.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+/*pied de page*/
+footer{
+  background-color: #454646;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/*texte en entete*/
+.big{
+  background-color: #454646;
+  opacity: 0.8;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+  color: aqua;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.logo {
+    width: 20%;
+    display: inline-block;
+}
+
+object {
+  width: 19.4%;
+  height: 140px;
+  vertical-align: top;
+  border: solid white;
+}
+h1 {
+  color: aqua;
+  font-style: normal;
+  font-family: sans-serif;
+  width: 59%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 35px;
+}
+
+/*navigation gauche et droite*/
+aside, .droite{
+  width: 18.4%;
+  height: 100vh;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*texte du milieu*/
+.container {
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: top;
+    width: 56.5%;
+}
+
+/*liste de navigation*/
+ul {
+  margin-top: 0px;
+}
+
+/*liens de navigation*/
+li {
+  list-style: none;
+  color: aqua;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:link {
+  color: aqua;
+  text-decoration: none;
+  transition: color, 2s;
+}
+
+a:hover {
+  color: white;
+}
+
+p{
+  color:white;
+}
+
+/*texte en pied de page*/
+.foot {
+  list-style: none;
+  color: aqua;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 1px;
+}
+
+/*texte du milieu*/
+.texte {
+  color: white;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+}
